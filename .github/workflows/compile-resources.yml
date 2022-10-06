@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Compile Resources
         run: python3 src/main.py
-      - name: Commit changes
+      - name: Commit changess
         uses: EndBug/add-and-commit@v9
         with:
           add: resources
