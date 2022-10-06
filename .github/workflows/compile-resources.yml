@@ -1,7 +1,7 @@
 ---
 name: Reads in the resources.json file in each resource folder and generated respective README.md
 on:
-  push:
+  pull_request:
     branches:
       - dev
 env:
